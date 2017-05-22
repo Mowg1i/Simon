@@ -1,0 +1,75 @@
+.content {
+  text-align: center;
+  padding: 30px;
+  width: 700px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #29335C;
+  letter-spacing: 2px;
+}
+
+button {  
+  border-radius: 50%;
+  border: none;
+  outline:none; 
+}
+button:hover {
+  opacity: 0.5;
+}
+
+.controls {
+  
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  
+}
+
+.simon {
+  
+  width: 120px;
+  height:120px;
+  margin: 20px;
+}
+
+.simon:hover {
+  
+    opacity: 0.5;
+}
+
+.box {
+  display:inline-block;
+  padding: 10px;
+}
+
+#red {
+  background-color: #E4572E;
+}
+
+#yellow {
+  background-color: #F3A712;
+}
+
+#green {
+  background-color: #A8C686;
+}
+
+#blue {
+  background-color: #669BBC;
+}
+
+.dialogue {
+  text-align: left;
+  width: 200px;
+  padding: 5px;
+}
+
+.counter, .countertext {
+  display: inline;
+}
+
+.top {
+  background-color: whitesmoke;
+  margin: 5px;
+}
